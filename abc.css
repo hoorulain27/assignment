@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+  }
+  img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+  }
+  .topleft {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(125, 26, 102);
+  }
+  .topright {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(125, 26, 102);
+  }
+  .center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif; 
+    color: rgb(44, 26, 125);
+  }
+  .bottomleft {
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(125, 26, 102);
+  }
+  .bottomright {
+    position: absolute;
+    bottom: 10px;
+    right: 12px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(125, 26, 102);
+  }
+  
